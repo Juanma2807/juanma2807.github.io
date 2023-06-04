@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.letrasblancas {
+    color: white;
+    font-weight: 400;
+
+}
+
+.letrasverdes {
+    color: green;
+}
+
+
+
+.container-tickets {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 1cm;
+    border-color: blue;
+}
+
+.card2 {
+
+    border-color: rgb(22, 144, 214);
+}
+
+.card3 {
+
+    border-color: rgb(212, 222, 15);
+}
+
+.card .card-title {
+    font-size: x-large;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.card .card-percentage {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.card .card-foot {
+
+    color: rgb(217, 213, 220);
+}
+
+
+button {
+    background-color: chartreuse;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 10px;
+    border: 2px solid #f1efef;
+}
+
+#total {
+    background-color: aqua;
+}
+
+footer {
+    margin-top: 1vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: rgb(46, 159, 197);
+}
